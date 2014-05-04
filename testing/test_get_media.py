@@ -18,8 +18,8 @@ api = InstagramAPI(access_token=access_token)
 # ## Working like media by id
 # api.like_media(recent[0].id)
 
-# ## Get ALL media from a specific user
-# USER_ID = api.user_search('christophersu', count=1)[0].id
-# recent, next = api.user_recent_media(user_id=USER_ID, count=-1)
-# print len(recent)
-# print next
+## Get ALL media from a specific user
+USER_ID = api.user_search('christophersu', count=1)[0].id
+recent, next = api.user_recent_media(user_id=USER_ID, count=-1)
+print len(recent)
+print next
