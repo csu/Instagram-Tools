@@ -20,4 +20,4 @@ Various utility scripts for Instagram.
 * [Todoist Tools](https://github.com/csu/Todoist-Tools)
 * [Tumblr Tools](https://github.com/csu/Tumblr-Tools)
 
-(as of May 15, 2014)
+(as of May 18, 2014)
