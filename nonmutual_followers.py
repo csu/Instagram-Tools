@@ -9,7 +9,7 @@ class NonmutualFollowers:
         for u in uf:
             # print "adding " + u.username
             user_follows.append(u.username)
-        while next:
+        while next != None:
             uf, next = self.api.user_follows(user_id)
             for u in uf:
                 # print "adding " + u.username
@@ -20,7 +20,7 @@ class NonmutualFollowers:
         for u in uf:
             # print "adding " + u.username
             user_followed_by.append(u.username)
-        while next:
+        while next != None:
             ufb, next = self.api.user_followed_by(user_id)
             for u in ufb:
                 # print "adding " + u.username
